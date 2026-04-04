@@ -1,0 +1,36 @@
+.nav-minimal {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.nav-btn-mini {
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  transition: all 0.15s ease;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn-mini:hover:not(.nav-btn-mini--disabled) {
+  background: #f8f9fa;
+  border-color: #adb5bd;
+}
+
+.nav-btn-mini--disabled {
+  background: #f8f9fa;
+  color: #dee2e6;
+  cursor: not-allowed;
+  border-color: #e9ecef;
+}
+
+.nav-icon-mini {
+  font-size: 12px;
+}
