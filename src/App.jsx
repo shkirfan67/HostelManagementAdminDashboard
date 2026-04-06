@@ -10,7 +10,7 @@ import BackButton from "./components/Common/BackButton";
 import Login from "./Pages/Login.jsx";
 import Signup from "./Pages/Signup";
 import ProtectedRoute from "./Pages/ProtectedRoute.jsx";
-import { loadUser } from "./features/authSlice.js";
+import { loadUser } from "./features/authSlice.jsx";
 import "./App.css";
 
 const App = () => {
