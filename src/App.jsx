@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import Sidebar from "./components/Sidebar";
-import Dashboard from "./pages/Dashboard";
-import OrganizationPage from "./pages/OrganizationPage";
-import OrganizationHostel from "./components/Hostels/Hostel";
-import BuildingManagement from "./components/Buildings/BuildingManagement";
+import Sidebar from "./components/Sidebar.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import OrganizationPage from "./pages/OrganizationPage.jsx";
+import OrganizationHostel from "./components/Hostels/Hostel.jsx";
+import BuildingManagement from "./components/Buildings/BuildingManagement.jsx";
 import BackButton from "./components/Common/BackButton";
-import Login from "./pages/Login";
+import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup";
-import ProtectedRoute from "./Pages/ProtectedRoute";
-import { loadUser } from "./features/authSlice";
+import ProtectedRoute from "./Pages/ProtectedRoute.jsx";
+import { loadUser } from "./features/authSlice.js";
 import "./App.css";
 
 const App = () => {
